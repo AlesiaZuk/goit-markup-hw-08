@@ -1,0 +1,36 @@
+.work {
+  padding-bottom: var(--section-padding);
+
+  @media screen and (max-width: 1200px) {
+    display: none;
+  }
+}
+
+.work__list {
+  @extend %card-set;
+}
+
+.work__item {
+  flex-basis: calc((100% - 90px) / 3);
+  @extend %card-set__item;
+}
+
+.work__thumb {
+  position: relative;
+}
+
+.work__description {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  width: 370px;
+
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  @include set-colors(var(--primary-background), var(--work-cart-background));
+}

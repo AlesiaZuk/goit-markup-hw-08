@@ -1,0 +1,24 @@
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -15px;
+  margin-left: -8px;
+  @media screen and (max-width: 767px) {
+    margin-bottom: 40px;
+  }
+
+  @media screen and (min-width: 768px) {
+    justify-content: center;
+    margin-bottom: var(--element-padding);
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-bottom: var(--title-margin);
+  }
+}
+
+.filter__item {
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-left: 8px;
+}

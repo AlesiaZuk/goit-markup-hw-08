@@ -1,2 +1,1 @@
-# goit-markup-hw-08
-Восьмое домашнее задание. Адаптивная вёрстка.
+# goit-markup-hw-08-original
